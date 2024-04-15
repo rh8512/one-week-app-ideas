@@ -25,5 +25,7 @@ Test and refine: Thoroughly test the application to ensure it functions correctl
 Additional Challenges:
 
 Implement user authentication so that only authorized users can add, edit, and delete movies from the list.
+
 Add integration with an external API to fetch additional movie information (e.g., trailers, cast).
+
 Create a responsive user interface that looks good on different devices.
