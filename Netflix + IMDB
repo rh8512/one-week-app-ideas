@@ -1,0 +1,29 @@
+Description:
+
+The purpose of this app is to provide users with a convenient way to manage and explore their Netflix watchlist while incorporating IMDb ratings. As a user, you can easily add, edit, and remove movies from your list, ensuring that you always have an up-to-date catalog of what to watch next. By integrating IMDb ratings, you gain valuable insights into the quality and popularity of each movie, helping you make informed decisions about what to prioritize in your viewing queue. This app fills a gap left by Netflix's native interface, which lacks IMDb ratings, empowering users to curate their watchlist with confidence and discover new favorites with ease.
+
+Tasks:
+
+1. Create Angular project: Initialize a new Angular project using Angular CLI.
+
+2. Define movie data model: In the app.component.ts file, create a class representing a movie. The class should include fields such as title, director, release year, genre, description, Netflix identifier (e.g., a unique identifier in Netflix's database), and IMDb rating.
+
+3. Create movie list component: Create a MovieListComponent component that will display a list of all movies to the user. The component should utilize the *ngFor directive to iterate through the list of movies and display their details, including IMDb ratings.
+
+4. Create movie form component: Create a MovieFormComponent component that will allow users to add new movies to the list and edit existing ones. The component should use Angular forms to collect data from the user, including the Netflix identifier.
+
+5. Implement CRUD services: Create C# services to handle CRUD operations on movies. These services should communicate with a database (e.g., SQL Server or MongoDB) to save, retrieve, update, and delete movies from the user's list.
+
+6. Fetch IMDb ratings: Utilize the IMDb API (e.g., IMDb API v2) to fetch IMDb ratings for each movie on the user's list. This can be done by sending an HTTP request to the IMDb API with the Netflix identifier of each movie.
+
+7. Connect services with Angular: Create dependency injectors in Angular components to access CRUD services and IMDb rating fetching service. Utilize the methods of these services to fetch, add, edit, delete movies from the user's list, and fetch their IMDb ratings.
+
+8. Add styling: Add CSS styles to components to give the application an attractive appearance.
+
+Test and refine: Thoroughly test the application to ensure it functions correctly. Add additional features such as search, filtering, and sorting movies by genre, release year, or IMDb rating.
+
+Additional Challenges:
+
+Implement user authentication so that only authorized users can add, edit, and delete movies from the list.
+Add integration with an external API to fetch additional movie information (e.g., trailers, cast).
+Create a responsive user interface that looks good on different devices.
